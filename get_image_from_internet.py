@@ -111,7 +111,7 @@ def request(method,url,data=None,json=None,headers={},stream=None,parse_headers=
             #print(l)
             l = l.split(None, 2)
             status = int(l[1])
-            reason = ""lk j
+            reason = ""
             if len(l) > 2:
                 reason = l[2].rstrip()
 
