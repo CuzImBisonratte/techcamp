@@ -52,9 +52,9 @@ while key.value() == 0:
         print("end")
         break
 player.finish()
-time.sleep(1)
+time.sleep_ms(1)
 player = ""
-time.sleep(1)
+time.sleep_ms(1)
 
 #
 #
